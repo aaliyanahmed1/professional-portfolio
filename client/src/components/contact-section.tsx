@@ -59,11 +59,11 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="section-padding bg-slate-800 text-white">
+    <section id="contact" className="section-padding bg-card text-foreground">
       <div className="container mx-auto container-padding">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Let's Work Together</h2>
-          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-4">Let's Work Together</h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Ready to bring your AI vision to life? Let's discuss your project and create something amazing.
           </p>
         </div>
@@ -89,21 +89,21 @@ export default function ContactSection() {
             <div className="flex flex-wrap gap-4">
               <Button 
                 onClick={() => window.open("https://www.linkedin.com/in/aaliyan-ahmad-rao-4b387a27b", "_blank")}
-                className="bg-blue-600 hover:bg-blue-700"
+                className="bg-primary hover:bg-primary/90 vibrant-glow"
               >
                 <SiLinkedin className="mr-2 h-4 w-4" />
                 LinkedIn
               </Button>
               <Button 
                 onClick={() => window.open("https://github.com/aaliyanahmed1", "_blank")}
-                className="bg-gray-800 hover:bg-gray-900"
+                className="bg-accent hover:bg-accent/90"
               >
                 <SiGithub className="mr-2 h-4 w-4" />
                 GitHub
               </Button>
               <Button 
                 onClick={() => window.open("/attached_assets/AALIYAN-AHMED_1751667000088.pdf", "_blank")}
-                className="bg-accent hover:bg-cyan-600"
+                className="gradient-bg text-white hover:opacity-90"
               >
                 <Download className="mr-2 h-4 w-4" />
                 Resume

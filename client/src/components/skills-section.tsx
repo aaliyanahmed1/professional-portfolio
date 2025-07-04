@@ -49,24 +49,24 @@ export default function SkillsSection() {
   ];
 
   return (
-    <section id="skills" className="section-padding bg-slate-50">
+    <section id="skills" className="section-padding bg-card">
       <div className="container mx-auto container-padding">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">Skills & Expertise</h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-4">Skills & Expertise</h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Comprehensive expertise across the AI and machine learning spectrum
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
-            <Card key={index} className="card-hover bg-white">
+            <Card key={index} className="card-hover bg-background">
               <CardContent className="p-6">
-                <div className="text-accent mb-4">
+                <div className="text-primary mb-4">
                   {skill.icon}
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-3">{skill.title}</h3>
-                <p className="text-slate-600 mb-4">{skill.description}</p>
+                <h3 className="text-xl font-bold text-foreground mb-3">{skill.title}</h3>
+                <p className="text-muted-foreground mb-4">{skill.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {skill.tags.map((tag) => (
                     <Badge key={tag} className={skill.color}>

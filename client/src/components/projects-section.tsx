@@ -56,18 +56,18 @@ export default function ProjectsSection() {
   ];
 
   return (
-    <section id="projects" className="section-padding bg-white">
+    <section id="projects" className="section-padding bg-background">
       <div className="container mx-auto container-padding">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">Featured Projects</h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-4">Featured Projects</h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Showcasing innovative AI solutions that make a real-world impact
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="card-hover bg-slate-50 overflow-hidden">
+            <Card key={index} className="card-hover bg-card overflow-hidden">
               <div className="relative group">
                 <img
                   src={project.image}
@@ -76,10 +76,10 @@ export default function ProjectsSection() {
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-800 mb-2">{project.title}</h3>
-                <p className="text-slate-600 mb-4">{project.description}</p>
+                <h3 className="text-xl font-bold text-foreground mb-2">{project.title}</h3>
+                <p className="text-muted-foreground mb-4">{project.description}</p>
                 <div className="mb-4">
-                  <h4 className="font-semibold text-slate-800 mb-2">Technologies Used:</h4>
+                  <h4 className="font-semibold text-foreground mb-2">Technologies Used:</h4>
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech) => (
                       <Badge key={tech} className={project.techColor}>
@@ -88,10 +88,10 @@ export default function ProjectsSection() {
                     ))}
                   </div>
                 </div>
-                <p className="text-slate-600 text-sm mb-4">
+                <p className="text-muted-foreground text-sm mb-4">
                   <strong>{project.detail.split(':')[0]}:</strong> {project.detail.split(':')[1]}
                 </p>
-                <Button variant="ghost" className="text-primary hover:text-secondary p-0 h-auto">
+                <Button variant="ghost" className="text-primary hover:text-accent p-0 h-auto">
                   View Project <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
