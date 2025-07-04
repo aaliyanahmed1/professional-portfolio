@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
 import { Mail, Phone, MapPin, Download } from "lucide-react";
-import { SiLinkedin, SiFiverr } from "react-icons/si";
+import { SiLinkedin, SiFiverr, SiGithub } from "react-icons/si";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
@@ -94,6 +94,13 @@ export default function ContactSection() {
               <Button className="bg-green-600 hover:bg-green-700">
                 <SiFiverr className="mr-2 h-4 w-4" />
                 Fiverr
+              </Button>
+              <Button 
+                onClick={() => window.open("https://github.com/aaliyanahmed1", "_blank")}
+                className="bg-gray-800 hover:bg-gray-900"
+              >
+                <SiGithub className="mr-2 h-4 w-4" />
+                GitHub
               </Button>
               <Button className="bg-accent hover:bg-cyan-600">
                 <Download className="mr-2 h-4 w-4" />

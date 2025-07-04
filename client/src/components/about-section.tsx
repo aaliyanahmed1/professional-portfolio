@@ -46,7 +46,7 @@ export default function AboutSection() {
                 <Trophy className="text-accent text-xl mt-1" />
                 <div>
                   <h4 className="font-semibold text-slate-800">Projects Delivered</h4>
-                  <p className="text-slate-600">100+ successful AI projects for global clients</p>
+                  <p className="text-slate-600">Multiple successful AI projects for global clients</p>
                 </div>
               </div>
             </div>
