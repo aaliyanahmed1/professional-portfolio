@@ -36,7 +36,7 @@ export default function AboutSection() {
                 <Briefcase className="text-accent text-xl mt-1" />
                 <div>
                   <h4 className="font-semibold text-slate-800">Experience</h4>
-                  <p className="text-slate-600">3+ years as AI Engineer (freelance & Fiverr)</p>
+                  <p className="text-slate-600">3+ years as AI Engineer (freelance)</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">

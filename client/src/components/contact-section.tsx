@@ -94,10 +94,6 @@ export default function ContactSection() {
                 <SiLinkedin className="mr-2 h-4 w-4" />
                 LinkedIn
               </Button>
-              <Button className="bg-green-600 hover:bg-green-700">
-                <SiFiverr className="mr-2 h-4 w-4" />
-                Fiverr
-              </Button>
               <Button 
                 onClick={() => window.open("https://github.com/aaliyanahmed1", "_blank")}
                 className="bg-gray-800 hover:bg-gray-900"

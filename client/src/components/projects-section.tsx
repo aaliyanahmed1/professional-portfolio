@@ -8,8 +8,8 @@ export default function ProjectsSection() {
     {
       image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       title: "Sign2Speech System",
-      description: "Real-time sign language translator using YOLO and TTS technology",
-      technologies: ["YOLO", "OpenCV", "TTS"],
+      description: "Real-time sign language translator using YOLO, Ollama, and TTS technology",
+      technologies: ["YOLO", "Ollama", "OpenCV", "TTS"],
       techColor: "bg-blue-100 text-blue-800",
       detail: "Challenge: Creating accessible communication for hearing-impaired individuals"
     },
