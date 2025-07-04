@@ -6,9 +6,6 @@ export default function AboutSection() {
       <div className="container mx-auto container-padding">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">About Me</h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Passionate AI Engineer with a proven track record of delivering innovative solutions
-          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
