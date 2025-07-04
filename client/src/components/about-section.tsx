@@ -11,7 +11,7 @@ export default function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="/attached_assets/WhatsApp Image 2025-07-05 at 01.22.16_55149d4a_1751666978183.jpg"
+              src="/attached_assets/WhatsApp Image 2025-07-05 at 01.22.16_55149d4a_1751667280472.jpg"
               alt="Professional headshot of AI engineer Aaliyan Ahmed"
               className="rounded-2xl shadow-lg w-full max-w-md mx-auto"
             />
