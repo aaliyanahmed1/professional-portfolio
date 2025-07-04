@@ -1,0 +1,78 @@
+Objective:
+I want to create a modern, professional portfolio website that showcases my work, skills, and experience as an AI Engineer.
+
+🧠 About Me Section
+Name: Aaliyan Ahmed
+
+Title: AI Engineer | Computer Vision Specialist
+
+Education: Bachelor's in Artificial Intelligence (BS AI)
+
+Experience:
+
+3+ years of hands-on experience as an AI Engineer (freelance & Fiverr)
+
+Built multiple real-time computer vision pipelines and machine learning systems
+
+Delivered over 100 successful AI projects for global clients
+
+🧰 Expertise
+Computer Vision (YOLO, OpenCV, object detection, tracking, etc.)
+
+Machine Learning & Deep Learning (CNNs, RNNs, Transformers)
+
+NLP & LLM fine-tuning (e.g., BERT, GPT, Whisper)
+
+AI Model Deployment (FastAPI, Docker, REST APIs)
+
+Data Science (pandas, NumPy, scikit-learn, matplotlib)
+
+Real-time systems & automation (e.g., surveillance, sign-to-speech)
+
+Tools: Python, PyTorch, TensorFlow, Keras, OpenCV, Hugging Face, etc.
+
+📁 Project Portfolio
+Add project cards or pages for:
+
+Sign2Speech System – Real-time sign language translator using YOLO and TTS
+
+Human Trait Analyzer – Face-based age, gender, and emotion prediction
+
+Virtual Try-On System – GAN-based fashion AI
+
+Object Detection Dashboard – Vehicle & pedestrian detection and alerting
+
+AI Chatbot with Personality Voting – GPT-powered game assistant
+
+Customer Service Automation Bot – RAG-based agent with order tracking
+
+Each project should include:
+
+Problem & solution
+
+Technologies used
+
+Key challenges and outcomes
+
+Screenshots or live demo link (if available)
+
+📄 Resume & Contact Section
+Add downloadable PDF resume
+
+Contact form with email notification
+
+Fiverr & LinkedIn buttons
+
+Calendly or booking link if offering consultations
+
+🛠️ Tech Stack for Website (Recommended)
+Frontend: React + TailwindCSS or Next.js
+
+Backend (optional): Node.js or FastAPI (for blog or contact APIs)
+
+Hosting: Vercel, Netlify, or GitHub Pages
+
+Blog: MDX or Contentlayer if using Next.js
+
+Analytics: Google Analytics or Plausible
+
