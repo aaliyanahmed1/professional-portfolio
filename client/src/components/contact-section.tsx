@@ -74,11 +74,11 @@ export default function ContactSection() {
             <div className="space-y-4 mb-8">
               <div className="flex items-center space-x-4">
                 <Mail className="text-accent text-xl" />
-                <span>aaliyan.ahmed@email.com</span>
+                <span>aaliyanahmedrajput@gmail.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="text-accent text-xl" />
-                <span>+1 (555) 123-4567</span>
+                <span>+92 3130457996</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-accent text-xl" />
@@ -87,7 +87,10 @@ export default function ContactSection() {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-blue-600 hover:bg-blue-700">
+              <Button 
+                onClick={() => window.open("https://www.linkedin.com/in/aaliyan-ahmad-rao-4b387a27b", "_blank")}
+                className="bg-blue-600 hover:bg-blue-700"
+              >
                 <SiLinkedin className="mr-2 h-4 w-4" />
                 LinkedIn
               </Button>
@@ -102,7 +105,10 @@ export default function ContactSection() {
                 <SiGithub className="mr-2 h-4 w-4" />
                 GitHub
               </Button>
-              <Button className="bg-accent hover:bg-cyan-600">
+              <Button 
+                onClick={() => window.open("/attached_assets/AALIYAN-AHMED_1751667000088.pdf", "_blank")}
+                className="bg-accent hover:bg-cyan-600"
+              >
                 <Download className="mr-2 h-4 w-4" />
                 Resume
               </Button>
