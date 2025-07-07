@@ -22,10 +22,10 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-background/90 backdrop-blur-md shadow-lg border-b border-border z-50">
+    <nav className="fixed top-0 left-0 right-0 bg-[#25304a]/95 backdrop-blur-md shadow-lg border-b border-[#34405a] z-50">
       <div className="container mx-auto container-padding">
         <div className="flex justify-between items-center py-4">
-          <div className="text-xl font-bold text-gradient">Aaliyan Ahmed</div>
+          <div className="text-xl font-bold text-white">Aaliyan Ahmed</div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
@@ -33,7 +33,7 @@ export default function Navigation() {
               <button
                 key={item.href}
                 onClick={() => handleNavClick(item.href)}
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-white hover:text-[#A68A64] transition-colors"
               >
                 {item.label}
               </button>
@@ -44,7 +44,7 @@ export default function Navigation() {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="md:hidden text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -59,7 +59,7 @@ export default function Navigation() {
                 <button
                   key={item.href}
                   onClick={() => handleNavClick(item.href)}
-                  className="text-muted-foreground hover:text-primary transition-colors py-2 text-left"
+                  className="text-white hover:text-[#A68A64] transition-colors py-2 text-left"
                 >
                   {item.label}
                 </button>

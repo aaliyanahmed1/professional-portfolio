@@ -59,8 +59,8 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="section-padding bg-card text-foreground">
-      <div className="container mx-auto container-padding">
+    <section className="bg-hero-gradient text-primary-foreground py-16" id="contact">
+      <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-4">Let's Work Together</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
