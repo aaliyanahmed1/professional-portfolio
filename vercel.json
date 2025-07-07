@@ -14,8 +14,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/(.*)",       // Send backend API routes to Express
       "dest": "/server/index.ts"
+    },
+    {
+      "src": "/(.*)",           // All other routes (like /, /about, etc.) go to frontend
+      "dest": "/index.html"
     }
   ]
 }
